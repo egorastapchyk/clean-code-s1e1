@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.priority-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.priority-matrix img {
   width: 100%;
 }
-.aaa .more-inf {
+.priority-matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.priority-matrix { text-align: center;
 }
 }
 .centered-main-page-element {
@@ -121,15 +121,15 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-li > button.delete:hover {
+li > button.btn-delete:hover {
   color: #cf2323;
 }
-button.delete img {
+button.btn-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.btn-delete img:hover {
   transform: rotateZ(0);
 }
 
