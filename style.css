@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.priority-matrix img {
+.priority-matrix .image {
   width: 100%;
 }
 .priority-matrix .more-inf {
@@ -35,14 +35,17 @@ body {
 .task-row-wrapper {
   display: flex;
 }
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.task-list-name, .task-list {
+.task-list-name,
+.task-list {
   list-style: none;
 }
-.total-input, .btn-total{
+.total-input,
+.btn-total {
   outline: none;
 }
 .btn-total {
